@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="395.0" prefWidth="700.0" style="-fx-background-image: url(file:C:\\Anul 4\\Sem I\\Examene\\Ingineria Programarii\\weatherApplication\\src\\main\\resources\\images\\img.jpg);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="395" fitWidth="700.0" layoutX="-1.0" layoutY="1.0" nodeOrientation="INHERIT" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/img.jpg" />
+         </image></ImageView>
+      <TextField alignment="CENTER" layoutX="21.0" layoutY="135.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: none;" text="Country:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField alignment="CENTER" layoutX="334.0" layoutY="135.0" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: none;" text="City:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="158.0" layoutY="59.0" prefHeight="39.0" prefWidth="381.0" style="-fx-background-color: none;" text="Welcome to Weather Application!">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="cityID" layoutX="406.0" layoutY="137.0" onAction="#getDetailsInterface" prefWidth="150.0" />
+      <ComboBox fx:id="countryID" layoutX="109.0" layoutY="137.0" onAction="#setCityInterface" prefWidth="150.0" />
+      <Label fx:id="mainID" layoutX="216.0" layoutY="200.0" prefHeight="30.0" prefWidth="214.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Label fx:id="tempID" layoutX="216.0" layoutY="230.0" prefHeight="30.0" prefWidth="167.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Label fx:id="humidityID" layoutX="216.0" layoutY="260.0" prefHeight="30.0" prefWidth="167.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Label fx:id="pressureID" layoutX="216.0" layoutY="290.0" prefHeight="30.0" prefWidth="167.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Label fx:id="windID" layoutX="216.0" layoutY="320.0" prefHeight="30.0" prefWidth="167.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
