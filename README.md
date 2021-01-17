@@ -29,4 +29,4 @@
 
 ***
 ### Realizator
-    Merches Diana :woman_student:    
+    Merches Diana 👩🏼‍🎓     
