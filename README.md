@@ -1,4 +1,4 @@
-##Aplicatie pentru monitorizare meteorologica :sunny: :snowflake: :umbrella: :cloud:
+## Aplicatie pentru monitorizare meteorologica :sunny: :snowflake: :umbrella: :cloud:
 
 
 ### Cuprins
@@ -7,12 +7,12 @@
 - [Realizator](#Realizator)
 
 ***
-###Introducere :partly_sunny:
+### Introducere :partly_sunny:
     Proiectul isi propune implementarea unei aplicatii in limbajul Java. 
     Aceasta va afisa date meteorogice pe baza unui fisier de intrare in care este definita o lista a oraselor din diferite tari ale lumii.
 
 ***
-###Utilizare :sun_with_face:
+### Utilizare :sun_with_face:
     Utilizatorul beneficiaza de o interfata grafica cu ajutorul careia va obtine datele necesare.
     Acesta alege tara si orasul despre care dorete o prognoza meteo, iar in urma acestei operatiuni, se vor afisa pe ecran date despre:
     - temperatura;
@@ -28,5 +28,5 @@
     683506    Bucharest  44.4323      26.1063      RO        
 
 ***
-###Realizator
+### Realizator
     Merches Diana :woman_student:    
