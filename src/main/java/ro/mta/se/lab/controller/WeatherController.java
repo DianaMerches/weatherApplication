@@ -129,7 +129,7 @@ public class WeatherController {
 
             JsonObject wind=Json.parse(String.valueOf(stringResultJSON)).asObject().get("wind").asObject();
             double valueWind=wind.getDouble("speed",0);
-            String windString="Wind: "+valueWind+"%";
+            String windString="Wind: "+valueWind+"km/h";
             windID.setText(windString);
         } catch (IOException e) {
             e.printStackTrace();
